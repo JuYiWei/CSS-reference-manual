@@ -1,0 +1,321 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+    
+  选择器 - 【CSS 参考手册】说了是村长
+  
+  </title>
+ <meta name="description" content="">
+ <link href="atom.xml" rel="alternate" title="【CSS 参考手册】说了是村长" type="application/atom+xml">
+    <link rel="stylesheet" href="asset/css/foundation.min.css" />
+    <link rel="stylesheet" href="asset/css/docs.css" />
+
+    <script src="asset/js/vendor/modernizr.js"></script>
+    <script src="asset/js/vendor/jquery.js"></script>
+    <script src="asset/highlightjs/highlight.pack.js"></script>
+    <link href="asset/highlightjs/styles/github.css" media="screen, projection" rel="stylesheet" type="text/css">
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+  </head>
+  <body class="antialiased hide-extras">
+    
+    <div class="marketing off-canvas-wrap" data-offcanvas>
+      <div class="inner-wrap">
+
+
+<nav class="top-bar docs-bar hide-for-small" data-topbar>
+
+<div id="header">
+    <h1><a href="index.html">【CSS 参考手册】说了是村长</a></h1>
+</div>
+
+</nav>
+        <nav class="tab-bar show-for-small">
+  <a href="javascript:void(0)" class="left-off-canvas-toggle menu-icon">
+    <span> &nbsp; 【CSS 参考手册】说了是村长</span>
+  </a>
+</nav>
+
+<aside class="left-off-canvas-menu">
+      <ul class="off-canvas-list">
+      <li><a href="index.html">Home</a></li>
+      
+        <li class="divider"></li>
+        <li><label>选择器</label></li>
+
+          
+            <li><a title="1.1 直接选择器" href="%E3%80%90CSS%20%E5%8F%82%E8%80%83%E6%89%8B%E5%86%8C%E3%80%911.1%20%E7%9B%B4%E6%8E%A5%E9%80%89%E6%8B%A9%E5%99%A8.html">1.1 直接选择器</a></li>
+          
+            <li><a title="1.2 关系选择器" href="%E3%80%90CSS%20%E5%8F%82%E8%80%83%E6%89%8B%E5%86%8C%E3%80%911.2%20%E5%85%B3%E7%B3%BB%E9%80%89%E6%8B%A9%E5%99%A8.html">1.2 关系选择器</a></li>
+          
+            <li><a title="1.3 属性选择器" href="%E3%80%90CSS%20%E5%8F%82%E8%80%83%E6%89%8B%E5%86%8C%E3%80%911.3%20%E5%B1%9E%E6%80%A7%E9%80%89%E6%8B%A9%E5%99%A8.html">1.3 属性选择器</a></li>
+          
+            <li><a title="1.4 特殊状态选择器" href="%E3%80%90CSS%20%E5%8F%82%E8%80%83%E6%89%8B%E5%86%8C%E3%80%911.4%20%E7%89%B9%E6%AE%8A%E7%8A%B6%E6%80%81%E9%80%89%E6%8B%A9%E5%99%A8.html">1.4 特殊状态选择器</a></li>
+          
+            <li><a title="1.5 特殊选择器" href="%E3%80%90CSS%20%E5%8F%82%E8%80%83%E6%89%8B%E5%86%8C%E3%80%911.5%20%E7%89%B9%E6%AE%8A%E9%80%89%E6%8B%A9%E5%99%A8.html">1.5 特殊选择器</a></li>
+          
+
+      
+        <li class="divider"></li>
+        <li><label>常规</label></li>
+
+          
+            <li><a title="2.1 单位" href="%E3%80%90CSS%20%E5%8F%82%E8%80%83%E6%89%8B%E5%86%8C%E3%80%912.1%20%E5%8D%95%E4%BD%8D.html">2.1 单位</a></li>
+          
+            <li><a title="2.2 颜色" href="%E3%80%90CSS%20%E5%8F%82%E8%80%83%E6%89%8B%E5%86%8C%E3%80%912.2%20%E9%A2%9C%E8%89%B2.html">2.2 颜色</a></li>
+          
+            <li><a title="2.3 属性汇总" href="%E3%80%90CSS%20%E5%8F%82%E8%80%83%E6%89%8B%E5%86%8C%E3%80%912.3%20%E5%B1%9E%E6%80%A7%E6%B1%87%E6%80%BB.html">2.3 属性汇总</a></li>
+          
+
+      
+      </ul>
+    </aside>
+
+<a class="exit-off-canvas" href="#"></a>
+
+        <section id="main-content" role="main" class="scroll-container">
+
+          <div class="row">
+            <div class="large-3 medium-3 columns">
+              <div class="hide-for-small">
+                <div class="sidebar">
+                <nav>
+                  <ul id="side-nav" class="side-nav">
+
+                    
+                      <li class="side-title"><span>选择器</span></li>
+                        
+                          <li><a title="1.1 直接选择器" href="%E3%80%90CSS%20%E5%8F%82%E8%80%83%E6%89%8B%E5%86%8C%E3%80%911.1%20%E7%9B%B4%E6%8E%A5%E9%80%89%E6%8B%A9%E5%99%A8.html">1.1 直接选择器</a></li>
+                        
+                          <li><a title="1.2 关系选择器" href="%E3%80%90CSS%20%E5%8F%82%E8%80%83%E6%89%8B%E5%86%8C%E3%80%911.2%20%E5%85%B3%E7%B3%BB%E9%80%89%E6%8B%A9%E5%99%A8.html">1.2 关系选择器</a></li>
+                        
+                          <li><a title="1.3 属性选择器" href="%E3%80%90CSS%20%E5%8F%82%E8%80%83%E6%89%8B%E5%86%8C%E3%80%911.3%20%E5%B1%9E%E6%80%A7%E9%80%89%E6%8B%A9%E5%99%A8.html">1.3 属性选择器</a></li>
+                        
+                          <li><a title="1.4 特殊状态选择器" href="%E3%80%90CSS%20%E5%8F%82%E8%80%83%E6%89%8B%E5%86%8C%E3%80%911.4%20%E7%89%B9%E6%AE%8A%E7%8A%B6%E6%80%81%E9%80%89%E6%8B%A9%E5%99%A8.html">1.4 特殊状态选择器</a></li>
+                        
+                          <li><a title="1.5 特殊选择器" href="%E3%80%90CSS%20%E5%8F%82%E8%80%83%E6%89%8B%E5%86%8C%E3%80%911.5%20%E7%89%B9%E6%AE%8A%E9%80%89%E6%8B%A9%E5%99%A8.html">1.5 特殊选择器</a></li>
+                        
+
+                    
+                      <li class="side-title"><span>常规</span></li>
+                        
+                          <li><a title="2.1 单位" href="%E3%80%90CSS%20%E5%8F%82%E8%80%83%E6%89%8B%E5%86%8C%E3%80%912.1%20%E5%8D%95%E4%BD%8D.html">2.1 单位</a></li>
+                        
+                          <li><a title="2.2 颜色" href="%E3%80%90CSS%20%E5%8F%82%E8%80%83%E6%89%8B%E5%86%8C%E3%80%912.2%20%E9%A2%9C%E8%89%B2.html">2.2 颜色</a></li>
+                        
+                          <li><a title="2.3 属性汇总" href="%E3%80%90CSS%20%E5%8F%82%E8%80%83%E6%89%8B%E5%86%8C%E3%80%912.3%20%E5%B1%9E%E6%80%A7%E6%B1%87%E6%80%BB.html">2.3 属性汇总</a></li>
+                        
+
+                    
+                  </ul>
+                </nav>
+                </div>
+              </div>
+            </div>
+            <div class="large-9 medium-9 columns">
+
+ 
+
+
+	
+		<div class="markdown-body">
+		<h1>1.1 直接选择器</h1>
+
+		<ul>
+<li>
+<a href="#toc_0"><em>.class</em></a>
+</li>
+<li>
+<a href="#toc_1"><em>#id</em></a>
+</li>
+<li>
+<a href="#toc_2">*</a>
+</li>
+<li>
+<a href="#toc_3"><em>element</em></a>
+</li>
+<li>
+<a href="#toc_4"><em>element,element</em></a>
+</li>
+<li>
+<a href="#toc_5"><em>:root</em></a>
+</li>
+<li>
+<a href="#toc_6"><em>:not(selector)</em></a>
+</li>
+<li>
+<a href="#toc_7"><em>:empty</em></a>
+</li>
+</ul>
+
+
+<h3 id="toc_0"><em>.class</em></h3>
+
+<ul>
+<li>类选择器</li>
+</ul>
+
+<pre><code>.test-Class {
+    color: red;
+}
+</code></pre>
+
+<pre><code>&lt;p class=&quot;test-Class&quot;&gt;测试 .class 选择器&lt;/p&gt;
+</code></pre>
+
+<h3 id="toc_1"><em>#id</em></h3>
+
+<ul>
+<li>id 选择器</li>
+</ul>
+
+<pre><code>#test-id {
+    color: aqua;
+}
+</code></pre>
+
+<pre><code>&lt;p id=&quot;test-id&quot;&gt;测试 #id &lt;/p&gt;
+</code></pre>
+
+<h3 id="toc_2">*</h3>
+
+<ul>
+<li>所有</li>
+</ul>
+
+<pre><code>* {
+    background-color: azure;
+}
+</code></pre>
+
+<h3 id="toc_3"><em>element</em></h3>
+
+<ul>
+<li>单一元素</li>
+</ul>
+
+<pre><code>h1 {
+    color: red;
+}
+</code></pre>
+
+<pre><code>&lt;h1&gt;测试 element &lt;/h1&gt;
+</code></pre>
+
+<h3 id="toc_4"><em>element,element</em></h3>
+
+<ul>
+<li>多元素</li>
+</ul>
+
+<pre><code>h1,h2,h3 {
+    color: red;
+}
+</code></pre>
+
+<pre><code>&lt;h1&gt;测试 element,element &lt;/h1&gt;
+&lt;h3&gt;测试 element,element &lt;/h3&gt;
+&lt;h5&gt;测试 element,element &lt;/h5&gt;
+</code></pre>
+
+<h3 id="toc_5"><em>:root</em></h3>
+
+<ul>
+<li>根元素</li>
+</ul>
+
+<pre><code>:root {
+    background-color: aliceblue;
+}
+</code></pre>
+
+<h3 id="toc_6"><em>:not(selector)</em></h3>
+
+<ul>
+<li>选择器取反</li>
+</ul>
+
+<pre><code>.test {
+    color: orange;
+}
+:not(.test) {
+    color: red;
+}
+</code></pre>
+
+<pre><code>&lt;p&gt;ppp&lt;/p&gt;
+&lt;p class=&quot;test&quot;&gt;ppp&lt;/p&gt;
+</code></pre>
+
+<h3 id="toc_7"><em>:empty</em></h3>
+
+<ul>
+<li>空元素</li>
+</ul>
+
+<pre><code>p:empty {
+    background-color: red;
+    height: 30px;
+}
+
+</code></pre>
+
+<pre><code>&lt;p&gt;&lt;/p&gt;
+</code></pre>
+
+
+		</div>
+	
+
+ 
+	
+
+ 
+	
+
+ 
+	
+
+ 
+	
+
+  
+  
+</div></div>
+
+
+<div class="page-bottom">
+  <div class="row">
+  <hr />
+  <div class="small-9 columns">
+  <p class="copyright">Copyright &copy; 2015
+Powered by <a target="_blank" href="http://www.mweb.im">MWeb</a>,&nbsp; 
+Theme used <a target="_blank" href="http://github.com">GitHub CSS</a>.</p>
+  </div>
+  <div class="small-3 columns">
+  <p class="copyright text-right"><a href="#header">TOP</a></p>
+  </div>
+   
+  </div>
+</div>
+
+        </section>
+      </div>
+    </div>
+    
+    
+    <script src="asset/js/foundation.min.js"></script>
+    <script src="asset/js/foundation/foundation.offcanvas.js"></script>
+    <script>
+      $(document).foundation();
+
+     
+    </script>
+    
+
+
+  </body>
+</html>

@@ -1,0 +1,573 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+    
+  2.3 属性汇总 - 【CSS 参考手册】说了是村长
+  
+  </title>
+ <meta name="description" content="">
+ <link href="atom.xml" rel="alternate" title="【CSS 参考手册】说了是村长" type="application/atom+xml">
+    <link rel="stylesheet" href="asset/css/foundation.min.css" />
+    <link rel="stylesheet" href="asset/css/docs.css" />
+
+    <script src="asset/js/vendor/modernizr.js"></script>
+    <script src="asset/js/vendor/jquery.js"></script>
+    <script src="asset/highlightjs/highlight.pack.js"></script>
+    <link href="asset/highlightjs/styles/github.css" media="screen, projection" rel="stylesheet" type="text/css">
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+  </head>
+  <body class="antialiased hide-extras">
+    
+    <div class="marketing off-canvas-wrap" data-offcanvas>
+      <div class="inner-wrap">
+
+
+<nav class="top-bar docs-bar hide-for-small" data-topbar>
+
+<div id="header">
+    <h1><a href="index.html">【CSS 参考手册】说了是村长</a></h1>
+</div>
+
+</nav>
+        <nav class="tab-bar show-for-small">
+  <a href="javascript:void(0)" class="left-off-canvas-toggle menu-icon">
+    <span> &nbsp; 【CSS 参考手册】说了是村长</span>
+  </a>
+</nav>
+
+<aside class="left-off-canvas-menu">
+      <ul class="off-canvas-list">
+      <li><a href="index.html">Home</a></li>
+      
+        <li class="divider"></li>
+        <li><label>选择器</label></li>
+
+          
+            <li><a title="1.1 直接选择器" href="%E3%80%90CSS%20%E5%8F%82%E8%80%83%E6%89%8B%E5%86%8C%E3%80%911.1%20%E7%9B%B4%E6%8E%A5%E9%80%89%E6%8B%A9%E5%99%A8.html">1.1 直接选择器</a></li>
+          
+            <li><a title="1.2 关系选择器" href="%E3%80%90CSS%20%E5%8F%82%E8%80%83%E6%89%8B%E5%86%8C%E3%80%911.2%20%E5%85%B3%E7%B3%BB%E9%80%89%E6%8B%A9%E5%99%A8.html">1.2 关系选择器</a></li>
+          
+            <li><a title="1.3 属性选择器" href="%E3%80%90CSS%20%E5%8F%82%E8%80%83%E6%89%8B%E5%86%8C%E3%80%911.3%20%E5%B1%9E%E6%80%A7%E9%80%89%E6%8B%A9%E5%99%A8.html">1.3 属性选择器</a></li>
+          
+            <li><a title="1.4 特殊状态选择器" href="%E3%80%90CSS%20%E5%8F%82%E8%80%83%E6%89%8B%E5%86%8C%E3%80%911.4%20%E7%89%B9%E6%AE%8A%E7%8A%B6%E6%80%81%E9%80%89%E6%8B%A9%E5%99%A8.html">1.4 特殊状态选择器</a></li>
+          
+            <li><a title="1.5 特殊选择器" href="%E3%80%90CSS%20%E5%8F%82%E8%80%83%E6%89%8B%E5%86%8C%E3%80%911.5%20%E7%89%B9%E6%AE%8A%E9%80%89%E6%8B%A9%E5%99%A8.html">1.5 特殊选择器</a></li>
+          
+
+      
+        <li class="divider"></li>
+        <li><label>常规</label></li>
+
+          
+            <li><a title="2.1 单位" href="%E3%80%90CSS%20%E5%8F%82%E8%80%83%E6%89%8B%E5%86%8C%E3%80%912.1%20%E5%8D%95%E4%BD%8D.html">2.1 单位</a></li>
+          
+            <li><a title="2.2 颜色" href="%E3%80%90CSS%20%E5%8F%82%E8%80%83%E6%89%8B%E5%86%8C%E3%80%912.2%20%E9%A2%9C%E8%89%B2.html">2.2 颜色</a></li>
+          
+            <li><a title="2.3 属性汇总" href="%E3%80%90CSS%20%E5%8F%82%E8%80%83%E6%89%8B%E5%86%8C%E3%80%912.3%20%E5%B1%9E%E6%80%A7%E6%B1%87%E6%80%BB.html">2.3 属性汇总</a></li>
+          
+
+      
+      </ul>
+    </aside>
+
+<a class="exit-off-canvas" href="#"></a>
+
+        <section id="main-content" role="main" class="scroll-container">
+
+          <div class="row">
+            <div class="large-3 medium-3 columns">
+              <div class="hide-for-small">
+                <div class="sidebar">
+                <nav>
+                  <ul id="side-nav" class="side-nav">
+
+                    
+                      <li class="side-title"><span>选择器</span></li>
+                        
+                          <li><a title="1.1 直接选择器" href="%E3%80%90CSS%20%E5%8F%82%E8%80%83%E6%89%8B%E5%86%8C%E3%80%911.1%20%E7%9B%B4%E6%8E%A5%E9%80%89%E6%8B%A9%E5%99%A8.html">1.1 直接选择器</a></li>
+                        
+                          <li><a title="1.2 关系选择器" href="%E3%80%90CSS%20%E5%8F%82%E8%80%83%E6%89%8B%E5%86%8C%E3%80%911.2%20%E5%85%B3%E7%B3%BB%E9%80%89%E6%8B%A9%E5%99%A8.html">1.2 关系选择器</a></li>
+                        
+                          <li><a title="1.3 属性选择器" href="%E3%80%90CSS%20%E5%8F%82%E8%80%83%E6%89%8B%E5%86%8C%E3%80%911.3%20%E5%B1%9E%E6%80%A7%E9%80%89%E6%8B%A9%E5%99%A8.html">1.3 属性选择器</a></li>
+                        
+                          <li><a title="1.4 特殊状态选择器" href="%E3%80%90CSS%20%E5%8F%82%E8%80%83%E6%89%8B%E5%86%8C%E3%80%911.4%20%E7%89%B9%E6%AE%8A%E7%8A%B6%E6%80%81%E9%80%89%E6%8B%A9%E5%99%A8.html">1.4 特殊状态选择器</a></li>
+                        
+                          <li><a title="1.5 特殊选择器" href="%E3%80%90CSS%20%E5%8F%82%E8%80%83%E6%89%8B%E5%86%8C%E3%80%911.5%20%E7%89%B9%E6%AE%8A%E9%80%89%E6%8B%A9%E5%99%A8.html">1.5 特殊选择器</a></li>
+                        
+
+                    
+                      <li class="side-title"><span>常规</span></li>
+                        
+                          <li><a title="2.1 单位" href="%E3%80%90CSS%20%E5%8F%82%E8%80%83%E6%89%8B%E5%86%8C%E3%80%912.1%20%E5%8D%95%E4%BD%8D.html">2.1 单位</a></li>
+                        
+                          <li><a title="2.2 颜色" href="%E3%80%90CSS%20%E5%8F%82%E8%80%83%E6%89%8B%E5%86%8C%E3%80%912.2%20%E9%A2%9C%E8%89%B2.html">2.2 颜色</a></li>
+                        
+                          <li><a title="2.3 属性汇总" href="%E3%80%90CSS%20%E5%8F%82%E8%80%83%E6%89%8B%E5%86%8C%E3%80%912.3%20%E5%B1%9E%E6%80%A7%E6%B1%87%E6%80%BB.html">2.3 属性汇总</a></li>
+                        
+
+                    
+                  </ul>
+                </nav>
+                </div>
+              </div>
+            </div>
+            <div class="large-9 medium-9 columns">
+
+ <div class="markdown-body">
+<h1>2.3 属性汇总</h1>
+
+<blockquote>
+<p>基本内容都在菜鸟基础有详细示例了；<br/>
+也可以参考原文<a href="http://www.runoob.com/cssref/css-reference.html">菜鸟 CSS 参考手册</a></p>
+</blockquote>
+
+<h3 id="toc_0">动画</h3>
+
+<pre><code>@keyframes                  定义一个动画,@keyframes定义的动画名称用来被animation-name所使用
+animation                   复合属性。检索或设置对象所应用的动画特效
+animation-name              检索或设置对象所应用的动画名称 ,必须与规则@keyframes配合使用，因为动画名称由@keyframes定义
+animation-duration          检索或设置对象动画的持续时间
+animation-timing-function   检索或设置对象动画的过渡类型
+animation-delay             检索或设置对象动画的延迟时间
+animation-iteration-count   检索或设置对象动画的循环次数
+animation-direction         检索或设置对象动画在循环中是否反向运动
+animation-play-state        检索或设置对象动画的状态
+</code></pre>
+
+<h3 id="toc_1">背景</h3>
+
+<pre><code>background              复合属性。设置对象的背景特性
+background-attachment   设置或检索背景图像是随对象内容滚动还是固定的。必须先指定background-image属性
+background-color        设置或检索对象的背景颜色
+background-image        设置或检索对象的背景图像
+background-position     设置或检索对象的背景图像位置。必须先指定background-image属性
+background-repeat       设置或检索对象的背景图像如何铺排填充。必须先指定background-image属性
+background-clip         指定对象的背景图像向外裁剪的区域
+background-origin       设置或检索对象的背景图像计算background-position时的参考原点(位置)
+background-size         检索或设置对象的背景图像的尺寸大小
+</code></pre>
+
+<h3 id="toc_2">边框、轮廓</h3>
+
+<pre><code>border              复合属性。设置对象边框的特性
+border-bottom       复合属性。设置对象底部边框的特性
+border-bottom-color 设置或检索对象的底部边框颜色
+border-bottom-style 设置或检索对象的底部边框样式
+border-bottom-width 设置或检索对象的底部边框宽度
+border-color        置或检索对象的边框颜色
+border-left         复合属性。设置对象左边边框的特性
+border-left-color   设置或检索对象的左边边框颜色
+border-left-style   设置或检索对象的左边边框样式
+border-left-width   设置或检索对象的左边边框宽度
+border-right        复合属性。设置对象右边边框的特性
+border-right-color  设置或检索对象的右边边框颜色
+border-right-style  设置或检索对象的右边边框样式
+border-right-width  设置或检索对象的右边边框宽度
+border-style        设置或检索对象的边框样式
+border-top          复合属性。设置对象顶部边框的特性
+border-top-color    设置或检索对象的顶部边框颜色
+border-top-style    设置或检索对象的顶部边框样式
+border-top-width    设置或检索对象的顶部边框宽度
+border-width        设置或检索对象的边框宽度
+outline             复合属性。设置或检索对象外的线条轮廓
+outline-color       设置或检索对象外的线条轮廓的颜色
+outline-style       设置或检索对象外的线条轮廓的样式
+outline-width       设置或检索对象外的线条轮廓的宽度
+border-bottom-left-radius   设置或检索对象的左下角圆角边框
+border-bottom-right-radius  设置或检索对象的右下角圆角边框
+border-image                设置或检索对象的边框样式使用图像来填充
+border-image-outset         规定边框图像超过边框的量
+border-image-repeat         规定图像边框是否应该被重复（repeated）、拉伸（stretched）或铺满（rounded）
+border-image-slice          规定图像边框的向内偏移
+border-image-source         规定要使用的图像，代替 border-style 属性中设置的边框样式
+border-image-width          规定图像边框的宽度
+border-radius               设置或检索对象使用圆角边框
+border-top-left-radius      定义左上角边框的形状
+border-top-right-radius     定义右上角边框的形状
+box-decoration-break        规定行内元素被折行
+box-shadow                  向方框添加一个或多个阴影
+</code></pre>
+
+<h3 id="toc_3">盒子</h3>
+
+<pre><code>overflow-x      如果内容溢出了元素内容区域，是否对内容的左/右边缘进行裁剪。
+overflow-y      如果内容溢出了元素内容区域，是否对内容的上/下边缘进行裁剪。
+overflow-style  规定溢出元素的首选滚动方法。
+rotation        围绕由 rotation-point 属性定义的点对元素进行旋转。
+rotation-point  定义距离上左边框边缘的偏移点
+</code></pre>
+
+<h3 id="toc_4">颜色</h3>
+
+<pre><code>color-profile       允许使用源的颜色配置文件的默认以外的规范
+opacity             设置一个元素的透明度级别
+rendering-intent    允许超过默认颜色配置文件渲染意向的其他规范
+</code></pre>
+
+<h3 id="toc_5">内边距</h3>
+
+<pre><code>padding         在一个声明中设置所有填充属性
+padding-bottom  设置元素的底填充
+padding-left    设置元素的左填充
+padding-right   设置元素的右填充
+padding-top     设置元素的顶部填充
+</code></pre>
+
+<h3 id="toc_6">媒体内容</h3>
+
+<pre><code>bookmark-label      指定书签的标签
+bookmark-level      指定了书签级别
+bookmark-target     指定了书签链接的目标
+float-offset        在相反的方向推动浮动元素，他们一直具有浮动
+hyphenate-after     指定一个断字的单词断字字符后的最少字符数
+hyphenate-before    指定一个断字的单词断字字符前的最少字符数
+hyphenate-character 指定了当一个断字发生时，要显示的字符串
+hyphenate-lines     表示连续断字的行在元素的最大数目
+hyphenate-resource  外部资源指定一个逗号分隔的列表，可以帮助确定浏览器的断字点
+hyphens             设置如何分割单词以改善该段的布局
+image-resolution    指定了正确的图像分辨率
+marks               将crop and/or cross标志添加到文档
+string-set          未知
+</code></pre>
+
+<h3 id="toc_7">尺寸</h3>
+
+<pre><code>height      设置元素的高度
+max-height  设置元素的最大高度
+max-width   设置元素的最大宽度
+min-height  设置元素的最小高度
+min-width   设置元素的最小宽度
+width       设置元素的宽度
+</code></pre>
+
+<h3 id="toc_8">弹性盒子（新）</h3>
+
+<pre><code>flex            复合属性。设置或检索弹性盒模型对象的子元素如何分配空间。
+flex-grow       设置或检索弹性盒的扩展比率。
+flex-shrink     设置或检索弹性盒的收缩比率。
+flex-basis      设置或检索弹性盒伸缩基准值。
+flex-flow       复合属性。设置或检索弹性盒模型对象的子元素排列方式。
+flex-direction  该属性通过定义flex容器的主轴方向来决定felx子项在flex容器中的位置。
+flex-wrap       该属性控制flex容器是单行或者多行，同时横轴的方向决定了新行堆叠的方向。
+align-content   在弹性容器内的各项没有占用交叉轴上所有可用的空间时对齐容器内的各项（垂直）。
+align-items     定义flex子项在flex容器的当前行的侧轴（纵轴）方向上的对齐方式。
+align-self      定义flex子项单独在侧轴（纵轴）方向上的对齐方式。
+justify-content 设置或检索弹性盒子元素在主轴（横轴）方向上的对齐方式。
+order           设置或检索弹性盒模型对象的子元素出现的順序。
+</code></pre>
+
+<h3 id="toc_9">弹性盒子（旧）</h3>
+
+<pre><code>box-align       指定如何对齐一个框的子元素
+box-direction   指定在哪个方向，显示一个框的子元素
+box-flex        指定一个框的子元素是否是灵活的或固定的大小
+box-flex-group  指派灵活的元素到Flex组
+box-lines       每当它在父框的空间运行时，是否指定将再上一个新的行列
+box-ordinal-group   指定一个框的子元素的显示顺序
+box-orient      指定一个框的子元素是否在水平或垂直方向应铺设
+box-pack        指定横向盒在垂直框的水平位置和垂直位置
+</code></pre>
+
+<h3 id="toc_10">字体</h3>
+
+<pre><code>font            在一个声明中设置所有字体属性
+font-family     规定文本的字体系列
+font-size       规定文本的字体尺寸
+font-style      规定文本的字体样式
+font-variant        规定文本的字体样式
+font-weight         规定字体的粗细
+@font-face          一个规则，允许网站下载并使用其他超过&quot;Web- safe&quot;字体的字体
+font-size-adjust    为元素规定 aspect 值
+font-stretch        收缩或拉伸当前的字体系列
+
+</code></pre>
+
+<h3 id="toc_11">内容生成</h3>
+
+<pre><code>content             与 :before 以及 :after 伪元素配合使用，来插入生成内容
+counter-increment   递增或递减一个或多个计数器
+counter-reset       创建或重置一个或多个计数器
+quotes              设置嵌套引用的引号类型
+crop                允许replaced元素只是作为一个对象代替整个对象的矩形区域
+move-to             未知
+page-policy         判定基于页面的给定元素的适用于计数器的字符串值
+</code></pre>
+
+<h3 id="toc_12">网格</h3>
+
+<pre><code>grid-columns    指定在网格中每列的宽度
+grid-rows       指定在网格中每列的高度
+</code></pre>
+
+<h3 id="toc_13">超链接</h3>
+
+<pre><code>target          简写属性设置target-name, target-new,和target-position属性
+target-name     指定在何处打开链接（目标位置）
+target-new      指定是否有新的目标链接打开一个新窗口或在现有窗口打开新标签
+target-position 指定应该放置新的目标链接的位置
+</code></pre>
+
+<h3 id="toc_14">线框</h3>
+
+<pre><code>alignment-adjust            允许更精确的元素的对齐方式
+alignment-baseline          其父级指定的内联级别的元素如何对齐
+baseline-shift              允许重新定位相对于dominant-baseline的dominant-baseline
+dominant-baseline           指定scaled-baseline-table
+drop-initial-after-adjust   设置下拉的主要连接点的初始对齐点
+drop-initial-after-align    校准行内的初始行的设置就是具有首字母的框使用初级连接点
+drop-initial-before-adjust  设置下拉的辅助连接点的初始对齐点
+drop-initial-before-align   校准行内的初始行的设置就是具有首字母的框使用辅助连接点
+drop-initial-size           控制局部的首字母下沉
+drop-initial-value          激活一个下拉式的初步效果
+inline-box-align            设置一个多行的内联块内的行具有前一个和后一个内联元素的对齐
+line-stacking               一个速记属性设置line-stacking-strategy, line-stacking-ruby,和line-stacking-shift属性
+line-stacking-ruby          设置包含Ruby注释元素的行对于块元素的堆叠方法
+line-stacking-shift         设置base-shift行中块元素包含元素的堆叠方法
+line-stacking-strategy      设置内部包含块元素的堆叠线框的堆叠方法
+text-height                 行内框的文本内容区域设置block-progression维数
+</code></pre>
+
+<h3 id="toc_15">列表</h3>
+
+<pre><code>list-style          在一个声明中设置所有的列表属性
+list-style-image    将图象设置为列表项标记
+list-style-position 设置列表项标记的放置位置
+list-style-type     设置列表项标记的类型
+</code></pre>
+
+<h3 id="toc_16">外边距</h3>
+
+<pre><code>margin          在一个声明中设置所有外边距属性
+margin-bottom   设置元素的下外边距
+margin-left     设置元素的左外边距
+margin-right    设置元素的右外边距
+margin-top      设置元素的上外边距
+</code></pre>
+
+<h3 id="toc_17">字幕</h3>
+
+<pre><code>marquee-direction   设置内容移动的方向
+marquee-play-count  设置内容移动多少次
+marquee-speed       设置内容滚动的速度有多快
+marquee-style       设置内容移动的样式
+</code></pre>
+
+<h3 id="toc_18">多列</h3>
+
+<pre><code>column-count    指定元素应该分为的列数
+column-fill     指定如何填充列
+column-gap      指定列之间的差距
+column-rule     对于设置所有column-rule-*属性的简写属性
+column-rule-color   指定列之间的颜色规则
+column-rule-style   指定列之间的样式规则
+column-rule-width   指定列之间的宽度规则
+column-span     指定元素应该跨越多少列
+column-width    指定列的宽度
+columns         缩写属性设置列宽和列数
+</code></pre>
+
+<h3 id="toc_19">页面媒体</h3>
+
+<pre><code>fit                 如果其宽度和高度属性都不是auto给出一个提示，如何大规模替换元素
+fit-position        判定方框内对象的对齐方式
+image-orientation   指定用户代理适用于图像中的向右或顺时针方向的旋转
+page    指定一个元素应显示的页面的特定类型
+size    指定含有BOX的页面内容的大小和方位
+</code></pre>
+
+<h3 id="toc_20">定位</h3>
+
+<pre><code>bottom  设置定位元素下外边距边界与其包含块下边界之间的偏移
+clear   规定元素的哪一侧不允许其他浮动元素
+clip    剪裁绝对定位元素
+cursor  规定要显示的光标的类型（形状）
+display 规定元素应该生成的框的类型
+float   规定框是否应该浮动
+left    设置定位元素左外边距边界与其包含块左边界之间的偏移
+overflow    规定当内容溢出元素框时发生的事情
+position    规定元素的定位类型
+right       设置定位元素右外边距边界与其包含块右边界之间的偏移
+top         设置定位元素的上外边距边界与其包含块上边界之间的偏移
+visibility  规定元素是否可见
+z-index     设置元素的堆叠顺序
+</code></pre>
+
+<h3 id="toc_21">分页</h3>
+
+<pre><code>orphans             设置当元素内部发生分页时必须在页面底部保留的最少行数
+page-break-after    设置元素后的分页行为
+page-break-before   设置元素前的分页行为
+page-break-inside   设置元素内部的分页行为
+widows              设置当元素内部发生分页时必须在页面顶部保留的最少行数
+</code></pre>
+
+<h3 id="toc_22">ruby</h3>
+
+<pre><code>ruby-align      控制Ruby文本和Ruby基础内容相对彼此的文本对齐方式
+ruby-overhang   当Ruby文本超过Ruby的基础宽，确定ruby文本是否允许局部悬置任意相邻的文本，除了自己的基础
+ruby-position   它的base控制Ruby文本的位置
+ruby-span       控制annotation 元素的跨越行为
+</code></pre>
+
+<h3 id="toc_23">语音</h3>
+
+<pre><code>mark            缩写属性设置mark-before和mark-after属性
+mark-after      允许命名的标记连接到音频流
+mark-before     允许命名的标记连接到音频流
+phonemes        指定包含文本的相应元素中的一个音标发音
+rest            一个缩写属性设置rest-before和rest-after属性
+rest-after      一个元素的内容讲完之后，指定要休息一下或遵守韵律边界
+rest-before     一个元素的内容讲完之前，指定要休息一下或遵守韵律边界
+voice-balance   指定了左，右声道之间的平衡
+voice-duration  指定应采取呈现所选元素的内容的长度
+voice-pitch     指定平均说话的声音的音调（频率）
+voice-pitch-range   指定平均间距的变化
+voice-rate      控制语速
+voice-stress    指示着重力度
+voice-volume    语音合成是指波形输出幅度
+</code></pre>
+
+<h3 id="toc_24">表格</h3>
+
+<pre><code>border-collapse 规定是否合并表格边框
+border-spacing  规定相邻单元格边框之间的距离
+caption-side    规定表格标题的位置
+empty-cells     规定是否显示表格中的空单元格上的边框和背景
+table-layout    设置用于表格的布局算法
+</code></pre>
+
+<h3 id="toc_25">文本</h3>
+
+<pre><code>color           设置文本的颜色
+direction       规定文本的方向 / 书写方向
+letter-spacing  设置字符间距
+line-height     设置行高
+text-align      规定文本的水平对齐方式
+text-decoration 规定添加到文本的装饰效果
+text-indent     规定文本块首行的缩进
+text-transform  控制文本的大小写
+unicode-bidi     
+vertical-align  设置元素的垂直对齐方式
+white-space     设置怎样给一元素控件留白
+word-spacing    设置单词间距
+text-emphasis   向元素的文本应用重点标记以及重点标记的前景色
+hanging-punctuation 指定一个标点符号是否可能超出行框
+punctuation-trim    指定一个标点符号是否要去掉
+text-align-last 当 text-align 设置为 justify 时，最后一行的对齐方式。
+text-justify    当 text-align 设置为 justify 时指定分散对齐的方式。
+text-outline    设置文字的轮廓。
+text-overflow   指定当文本溢出包含的元素，应该发生什么
+text-shadow     为文本添加阴影
+text-wrap       指定文本换行规则
+word-break      指定非CJK文字的断行规则
+word-wrap       设置浏览器是否对过长的单词进行换行
+</code></pre>
+
+<h3 id="toc_26">2D\3D 转换</h3>
+
+<pre><code>transform           适用于2D或3D转换的元素
+transform-origin    允许您更改转化元素位置
+transform-style     3D空间中的指定如何嵌套元素
+perspective         指定3D元素是如何查看透视图
+perspective-origin  指定3D元素底部位置
+backface-visibility 定义一个元素是否应该是可见的，不对着屏幕时
+</code></pre>
+
+<h3 id="toc_27">过渡</h3>
+
+<pre><code>transition          此属性是 transition-property、transition-duration、transition-timing-function、transition-delay 的简写形式。
+transition-property 设置用来进行过渡的 CSS 属性。
+transition-duration 设置过渡进行的时间长度。
+transition-timing-function  设置过渡进行的时序函数。
+transition-delay    指定过渡开始的时间。
+</code></pre>
+
+<h3 id="toc_28">用户外观</h3>
+
+<pre><code>appearance      定义元素的外观样式
+box-sizing      允许您为了适应区域以某种方式定义某些元素
+icon            为元素指定图标
+nav-down        指定用户按向下键时向下导航的位置
+nav-index       指定导航（tab）顺序。
+nav-left        指定用户按向左键时向左导航的位置
+nav-right       指定用户按向右键时向左导航的位置
+nav-up          指定用户按向上键时向上导航的位置a
+outline-offset  设置轮廓框架在 border 边缘外的偏移
+resize          定义元素是否可以改变大小
+</code></pre>
+
+
+</div>
+
+<br /><br />
+<hr />
+
+<div class="row clearfix">
+  <div class="large-6 columns">
+	<div class="text-left" style="padding:15px 0px;">
+		
+	        <a href="%E3%80%90CSS%20%E5%8F%82%E8%80%83%E6%89%8B%E5%86%8C%E3%80%912.2%20%E9%A2%9C%E8%89%B2.html"  title="Previous Post: 2.2 颜色">&laquo; 2.2 颜色</a>
+	    
+	</div>
+  </div>
+  <div class="large-6 columns">
+	<div class="text-right" style="padding:15px 0px;">
+		
+	</div>
+  </div>
+</div>
+
+<div class="row">
+<div style="padding:0px 0.93em;" class="share-comments">
+
+</div>
+</div>
+<script type="text/javascript">
+	$(function(){
+		var currentURL = '%E3%80%90CSS%20%E5%8F%82%E8%80%83%E6%89%8B%E5%86%8C%E3%80%912.3%20%E5%B1%9E%E6%80%A7%E6%B1%87%E6%80%BB.html';
+		$('#side-nav a').each(function(){
+			if($(this).attr('href') == currentURL){
+				$(this).parent().addClass('active');
+			}
+		});
+	});
+</script>  
+</div></div>
+
+
+<div class="page-bottom">
+  <div class="row">
+  <hr />
+  <div class="small-9 columns">
+  <p class="copyright">Copyright &copy; 2015
+Powered by <a target="_blank" href="http://www.mweb.im">MWeb</a>,&nbsp; 
+Theme used <a target="_blank" href="http://github.com">GitHub CSS</a>.</p>
+  </div>
+  <div class="small-3 columns">
+  <p class="copyright text-right"><a href="#header">TOP</a></p>
+  </div>
+   
+  </div>
+</div>
+
+        </section>
+      </div>
+    </div>
+    
+    
+    <script src="asset/js/foundation.min.js"></script>
+    <script src="asset/js/foundation/foundation.offcanvas.js"></script>
+    <script>
+      $(document).foundation();
+
+     
+    </script>
+    
+
+
+  </body>
+</html>
